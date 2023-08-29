@@ -7,19 +7,19 @@ local tython = {}
 
     function tython:getConsoleFunctions()
         local console = {}
-            function console.info(x: string)
+            function console.info(x)
                 consola.coInfo(x)
             end
 
-            function console.warn(x: string)
+            function console.warn(x)
                 consola.coWarn(x)
             end
 
-            function console.error(x: string)
+            function console.error(x)
                 consola.coError(x)
             end
 
-            function console.print(x: string)
+            function console.print(x)
                 consola.coPrint(x)
             end
         return console
